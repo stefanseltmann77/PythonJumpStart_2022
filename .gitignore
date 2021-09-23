@@ -1,0 +1,7 @@
+.idea
+.mypy_cache
+/.env
+/local.py
+/terraform/.terraform/
+*.hcl
+*.tfstate*

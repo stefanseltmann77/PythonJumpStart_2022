@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+python-dotenv = "*"
+matplotlib = "*"
+scikit-learn = "*"
+openpyxl = "*"
+sphinx = "*"
+sqlalchemy = "*"
+statsmodels = "*"
+logging-tree = "*"
+psycopg2-binary = "*"
+numpy = "*"
+seaborn = "*"
+
+[dev-packages]
+pytest = "*"
+pylint = "*"
+mypy = "*"
+coverage = "*"
+
+[requires]
+python_version = "3.9"
