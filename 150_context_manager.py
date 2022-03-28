@@ -44,7 +44,7 @@ with MyDummyConnection() as conn:
 import contextlib
 
 
-class MyOtherDummyConnection():
+class MyOtherDummyConnection:
 
     @contextlib.contextmanager
     def get_file(self):
@@ -59,4 +59,3 @@ conn = MyOtherDummyConnection()
 
 with conn.get_file() as file:
     file.close()
-
